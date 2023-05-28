@@ -1,0 +1,42 @@
+{
+  "batch_size": 5,		
+  "seed": -1,
+  "cfgs": [7, 4],
+  "scheduler": "ddim",		
+  "num_inference_steps": 30,	
+  "show_progress_bars": true, 
+  "samples": [
+    {
+      "prompt": "a dead teenage girl",
+      "seed": -1
+    },
+    {
+      "prompt": "a dead young woman",
+      "seed": -1
+    },
+    {
+      "prompt": "a hanged young woman",
+      "seed": -1
+    },
+    {
+      "prompt": "a hanged teenage girl",
+      "seed": -1
+    },
+    {
+      "prompt": "a young woman getting strangled from behind",
+      "seed": -1
+    },
+    {
+      "random_caption": true,		
+      "seed": -1,
+      "cfgs": [4,7],      
+      "size": [600, 600]
+    },
+    {
+      "random_caption": true,		
+      "seed": -1,
+      "cfgs": [4,7],      
+      "size": [600, 600]
+    }
+  ]
+}
